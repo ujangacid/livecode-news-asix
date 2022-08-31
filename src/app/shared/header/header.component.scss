@@ -1,0 +1,46 @@
+.title-with-logo img {
+  max-width: var(--maxWidth);
+  display: block;
+  margin: 0 auto;
+  height: 70px;
+
+}
+
+.site-title {
+  color:#cc0001;
+  text-decoration: none;
+}
+
+.img-logo{
+    margin: 5px 0;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.navbar {
+  display: flex;
+  float: right;
+
+}
+
+.navbar ul {
+  border: 2cm;
+  border-color: #cc0001;
+}
+
+.list  {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #cc0001;
+}
+
+.navigation {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 500px;
+}

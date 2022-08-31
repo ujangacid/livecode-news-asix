@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'livecode-angular'`, () => {
+  it(`should have as title 'angular-pascal-9'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('livecode-angular');
+    expect(app.title).toEqual('angular-pascal-9');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('livecode-angular app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-pascal-9 app is running!');
   });
 });
